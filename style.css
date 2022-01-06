@@ -72,7 +72,7 @@ body{
     border-radius: 5px;
     background-color:#EDF5F6;
     padding-left: 20px;
-    margin-left: 40px;
+    margin-left: 10%;
 }
 .mm-item-2{
     width: 30%;
@@ -80,13 +80,14 @@ body{
     background-color:#FFEEEE;
     padding-left: 20px;
     margin-left: 10px;
+    margin-right: 10px;
 }
 .mm-item-3{
     width: 30%;
     border-radius: 5px;
     background-color:#FFF4D6;
     padding-left: 20px;
-    margin-left: 10px;
+    margin-right: 15%;
 }
 .mm-item-1 img{
     width: 30%;
@@ -99,4 +100,123 @@ body{
 .mm-item-3 img{
     width: 30%;
     padding-top: 20px;
+}
+.develop {
+    padding-top: 7%;
+}
+.develop-bg-ring{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: left;
+   
+}
+.develop-left{
+    width: 30%;
+    padding-left: 10%;
+    
+}
+.develop-left img{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.develop-right{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+    margin: 0px;
+}
+.develop-right p{
+    width: 75%;
+}
+.d-text-black{
+    width: 30%;
+    color: #333333;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.develop-button{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.community {
+    padding-top: 7%;
+}
+.community-bg-ring{
+    background-image: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-y: bottom;
+    background-position-x: right;
+   
+}
+.community-right{
+    width: 30%;
+    padding-right: 10%;
+    
+}
+.community-right img{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.community-left{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+    margin: 0px;
+}
+.community-left p{
+    width: 75%;
+}
+.c-text-black{
+    width: 30%;
+    color: #333333;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.community-button{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+/*footer start*/
+.bg-color{
+    background-color: #0B0D17;
+    text-align: center;
+    
+}
+.bg-color h3{
+    padding-top: 2%;
+    font-family: 'Satisfy', cursive;
+}
+
+.f-text-white{
+    width: 30%;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.f-text-orrange{
+    width: 30%;
+    color: #FF5959;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+.bg-color p{
+    color: #BABCC2;
+    text-align: center;
+    padding-bottom: 2%;
 }
