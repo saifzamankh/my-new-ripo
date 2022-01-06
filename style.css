@@ -7,7 +7,7 @@ body{
 .focused-left{
     width: 50%;
     padding-left: 10%;
-    padding-top: 7%;
+    padding-top: 13%;
 }
 #focused-border{
     width: auto;
@@ -19,7 +19,8 @@ body{
 }
 .focused-left p{
     width: 70%;
-    padding-bottom: 10px;
+    padding-bottom: 10%;
+    
 }
 .f-text-black{
     width: 30%;
@@ -42,7 +43,7 @@ body{
 }
 
 .focused-right img{
-    width: 50%;
+    width: 60%;
     padding: 0px;
     margin: 0px;
 }
@@ -100,9 +101,11 @@ body{
 .mm-item-3 img{
     width: 30%;
     padding-top: 20px;
+    margin-left: -5%;
 }
 .develop {
     padding-top: 7%;
+    margin-left: 2%;
 }
 .develop-bg-ring{
     background-image: url("images/shapes/shape-1.png");
@@ -113,13 +116,14 @@ body{
 }
 .develop-left{
     width: 30%;
-    padding-left: 10%;
+    padding-left: 8%;
     
 }
 .develop-left img{
     width: 100%;
     padding: 0px;
     margin: 0px;
+    margin-left:-3%
     
 }
 .develop-right{
@@ -147,6 +151,7 @@ body{
 
 .community {
     padding-top: 7%;
+    padding-right: 10%;
 }
 .community-bg-ring{
     background-image: url("images/shapes/shape-1.png");
@@ -190,11 +195,65 @@ body{
     border-radius: 5px;
 }
 
+.build-apps {
+    padding-top: 7%;
+    margin-left: 2%;
+}
+.build-apps-bg-ring{
+    background-image: url("images/shapes/shape-3.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position-x: left;
+    background-position-y: top;
+   
+}
+.build-apps-left{
+    width: 30%;
+    padding-left: 10%;
+    
+}
+.build-apps-left img{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-left:-3%
+    
+}
+.build-apps-right{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+    margin: 0px;
+}
+.build-apps-right p{
+    width: 75%;
+}
+.ba-text-black{
+    width: 30%;
+    color: #333333;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.ba-text-orrange{
+    width: 30%;
+    color: #FFAD5A;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+.build-apps-button{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+}
 /*footer start*/
 .bg-color{
     background-color: #0B0D17;
     text-align: center;
-    
 }
 .bg-color h3{
     padding-top: 2%;
